@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.4" pages="2">
+  <diagram name="flowchart" id="NM4KAx8BzTfRIwQg6xh1">
+    <mxGraphModel dx="978" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#F5F5F5)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-5" value="MCU" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.logic_gates.qfp_ic;whiteSpace=wrap;labelNames=a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,a1,b1,c1,d1,e1,f1,g1,h1,i1,j1,k1,l1,m1,n1;labelBackgroundColor=none;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="370" y="560" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-7" value="Audio" style="html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;sketch=0;shape=mxgraph.sitemap.audio;labelBackgroundColor=none;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
+          <mxGeometry x="530" y="580" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-8" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(43, 43, 43));&quot;&gt;3.5&quot; Display&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#10739e;fillColor=#b1ddf0;shape=mxgraph.azure.computer;pointerEvents=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="390" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-15" value="&lt;div&gt;User Input&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;sketch=0;shape=mxgraph.sitemap.game;labelBackgroundColor=none;gradientColor=#ea6b66;" parent="1" vertex="1">
+          <mxGeometry x="305" y="730" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-16" value="Gamelist ROM" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#09555B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.sd_card;fontColor=#EEEEEE;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="250" y="390" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-21" value="" style="rounded=1;whiteSpace=wrap;html=1;container=1;collapsible=0;absoluteArcSize=1;arcSize=20;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;strokeColor=#6F0000;fontColor=#ffffff;fillColor=#a20025;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="160" y="600" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-22" value="Game Emulator" style="whiteSpace=wrap;connectable=0;html=1;shape=mxgraph.basic.rect;size=10;rectStyle=rounded;bottomRightStyle=square;bottomLeftStyle=square;part=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="m3wV0AFP88e8VwKJwS0p-21" vertex="1">
+          <mxGeometry width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-23" value="" style="shape=mxgraph.bpmn.task2;arcSize=0;taskMarker=abstract;part=1;isLoopStandard=1;connectable=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="m3wV0AFP88e8VwKJwS0p-21" vertex="1">
+          <mxGeometry y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-24" value="" style="whiteSpace=wrap;connectable=0;html=1;shape=mxgraph.basic.rect;size=10;rectStyle=rounded;topRightStyle=square;topLeftStyle=square;fillColor=#09555B;part=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;labelBackgroundColor=none;" parent="m3wV0AFP88e8VwKJwS0p-21" vertex="1">
+          <mxGeometry y="80" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m3wV0AFP88e8VwKJwS0p-33" value="Power" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/energy-and-power-glyph-24-px/24/Automotive_battery_battery_charging_car_battery_truck_battery_vehicle_battery_1-128.png;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;imageBackground=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="670" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="physical design idea" id="p7pS6x2aVugiO5CmXt95">
+    <mxGraphModel dx="675" dy="360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#F5F5F5)" math="0" shadow="0">
+      <root>
+        <mxCell id="G81GZ3Bvz26t8bEbDBez-0" />
+        <mxCell id="G81GZ3Bvz26t8bEbDBez-1" parent="G81GZ3Bvz26t8bEbDBez-0" />
+        <mxCell id="ZICnN6De6c38EySWREnB-0" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=light-dark(#DAE8FC,#66FF66);strokeColor=#6c8ebf;size=0.23529411764705882;fontSize=7;" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="120" y="440" width="510" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ZICnN6De6c38EySWREnB-2" value="D-PAD" style="shape=cross;whiteSpace=wrap;html=1;size=0.36428571428571244;fontFamily=Tahoma;fontStyle=1" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="140" y="491.2" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZICnN6De6c38EySWREnB-4" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontFamily=Tahoma;fontStyle=1" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="530" y="531.2" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZICnN6De6c38EySWREnB-5" value="A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontFamily=Tahoma;fontStyle=1" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="570" y="491.2" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZICnN6De6c38EySWREnB-6" value="SEL" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Tahoma;fontStyle=1" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="190" y="613" width="40" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="ZICnN6De6c38EySWREnB-8" value="START" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Tahoma;fontStyle=1" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="190" y="638" width="40" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="ZICnN6De6c38EySWREnB-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="250" y="450" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="klNsXWeDIEUyTJ4-zGU0-2" value="" style="ellipse;whiteSpace=wrap;html=1;fillStyle=dots;strokeColor=none;fillColor=default;shadow=0;" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="554" y="584" width="56" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="klNsXWeDIEUyTJ4-zGU0-5" value="ROM" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.sd_card;rotation=0;" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="290" y="411.2" width="52.4" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="klNsXWeDIEUyTJ4-zGU0-7" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.pushbutton;aspect=fixed;elSwitchState=off;rotation=90;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="610" y="471.2" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="klNsXWeDIEUyTJ4-zGU0-8" value="power led" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.led_1;pointerEvents=1;fillColor=light-dark(#FFFFFF,#FF3333);" vertex="1" parent="G81GZ3Bvz26t8bEbDBez-1">
+          <mxGeometry x="520" y="445" width="50" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
