@@ -417,6 +417,18 @@
       "Root"
     ],
     [
+      "92613928-e710-4367-80c3-7f970eb57403",
+      "display_memory circuit"
+    ],
+    [
+      "c7a7f4b1-112d-4c4a-b6ee-a5dd4ad6ca07",
+      "audio_circuit"
+    ],
+    [
+      "0ffc9d68-21f9-46f6-8c58-1550c26cf40a",
+      "input_circuit"
+    ],
+    [
       "e7f3f69b-4f1f-48a6-95cb-52c0ae4cac32",
       "power_circuit"
     ]
