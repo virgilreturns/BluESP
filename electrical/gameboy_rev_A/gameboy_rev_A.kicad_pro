@@ -415,6 +415,10 @@
     [
       "131976ae-50a5-40c3-8803-e57b987d49f7",
       "Root"
+    ],
+    [
+      "e7f3f69b-4f1f-48a6-95cb-52c0ae4cac32",
+      "power_circuit"
     ]
   ],
   "text_variables": {}

@@ -5,183 +5,6 @@
 	(uuid "131976ae-50a5-40c3-8803-e57b987d49f7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1272,142 +1095,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "gameboy_lib:3.5in_SPI_Module_MSP3520"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2166,140 +1853,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "gameboy_lib:MP2315_Mini_Adjustable_DC-DC_Step-Down_Module"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MP2315"
-				(at -0.254 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MP2315_Mini_Adjustable_DC-DC_Step-Down_Module_1_1"
-				(rectangle
-					(start -6.35 -3.81)
-					(end 6.35 -15.875)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -10.16 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -13.97 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -8.89 180)
-					(length 2.54)
-					(name "V0+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2558,12 +2111,6 @@
 		(uuid "b421708e-3914-4529-81ae-e607cf6d2ce1")
 	)
 	(junction
-		(at 71.12 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f52ed1a-a41b-431d-8fe6-31cceaad7ddd")
-	)
-	(junction
 		(at 201.93 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2659,36 +2206,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 92.71 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3572a6bb-28a9-4b57-a6e6-07c21cc63027")
-	)
-	(wire
-		(pts
-			(xy 96.52 166.37) (xy 96.52 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe4e937-72e8-4d50-91bb-984968b527d9")
-	)
-	(wire
-		(pts
-			(xy 52.07 172.72) (xy 52.07 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "458da786-6bdc-4388-9423-0dfe616158c9")
-	)
-	(wire
-		(pts
 			(xy 233.68 124.46) (xy 233.68 125.73)
 		)
 		(stroke
@@ -2696,26 +2213,6 @@
 			(type default)
 		)
 		(uuid "531f6bc5-b788-43da-9cfa-d030e9b3b3aa")
-	)
-	(wire
-		(pts
-			(xy 71.12 168.91) (xy 74.93 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d84343-068d-46bb-9736-900c69ca85e0")
-	)
-	(wire
-		(pts
-			(xy 52.07 165.1) (xy 57.15 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1b4b2b-7754-4c24-aaa4-2c9209040ae4")
 	)
 	(wire
 		(pts
@@ -2749,16 +2246,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 165.1) (xy 71.12 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8499765d-1b89-44f1-8180-e1cd28f7a70a")
-	)
-	(wire
-		(pts
 			(xy 201.93 127) (xy 207.01 127)
 		)
 		(stroke
@@ -2766,16 +2253,6 @@
 			(type default)
 		)
 		(uuid "937c0e87-f667-4f4e-8aa7-eda1d738afec")
-	)
-	(wire
-		(pts
-			(xy 71.12 165.1) (xy 74.93 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "944dfd60-1e65-40b7-bfd8-8da42500dcfe")
 	)
 	(wire
 		(pts
@@ -2789,16 +2266,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 165.1) (xy 71.12 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b78079a-99cd-4ce2-895b-e54cd88893ce")
-	)
-	(wire
-		(pts
 			(xy 201.93 121.92) (xy 207.01 121.92)
 		)
 		(stroke
@@ -2806,26 +2273,6 @@
 			(type default)
 		)
 		(uuid "abcb9d29-954d-4f72-b6b7-d24d9cbefb02")
-	)
-	(wire
-		(pts
-			(xy 74.93 172.72) (xy 71.12 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b91c0b00-ec3f-4f4a-846e-59c765bb4258")
-	)
-	(wire
-		(pts
-			(xy 71.12 172.72) (xy 71.12 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c05cf5-91cb-4b20-9315-5eef321cc283")
 	)
 	(wire
 		(pts
@@ -2948,74 +2395,6 @@
 			(project "gameboy_rev_A"
 				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 62.23 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1dae0397-e0ef-44a1-89f2-b68f20ff5e2b")
-		(property "Reference" "SW1"
-			(at 62.23 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 62.23 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 62.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb8e8925-2405-4f27-a3a6-7a124565190f")
-		)
-		(pin "2"
-			(uuid "ca9c91b9-172a-4794-b72b-a1abe7a7080e")
-		)
-		(instances
-			(project ""
-				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3333,137 +2712,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47191e93-2f4c-4068-af93-4d16660e0368")
-		(property "Reference" "#PWR01"
-			(at 52.07 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4417fc24-fc5b-4bb6-8a76-d8b98094f524")
-		)
-		(instances
-			(project ""
-				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 96.52 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65687b8c-3a88-4964-99cd-576c37930a70")
-		(property "Reference" "#PWR04"
-			(at 96.52 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC +3.3v"
-			(at 97.282 162.052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 96.52 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38882572-fa13-4beb-abdd-f092ba3f19f6")
-		)
-		(instances
-			(project ""
-				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 195.58 120.65 0)
 		(unit 1)
@@ -3593,72 +2841,6 @@
 			(project ""
 				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "852e1e7c-fff8-47e4-9b2b-050ba51c399d")
-		(property "Reference" "#PWR02"
-			(at 71.12 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0df3461-b8f7-4b1f-935d-b599a26e88d7")
-		)
-		(instances
-			(project "gameboy_rev_A"
-				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3905,75 +3087,6 @@
 			(project "gameboy_rev_A"
 				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 52.07 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b247db1d-eaaf-4e26-bba2-c9a4fb9335df")
-		(property "Reference" "BT1"
-			(at 44.704 168.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.7 V"
-			(at 44.704 170.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 168.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 168.656 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "INR18650-25R"
-			(at 63.5 171.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3e6931d-2db6-452b-b6dc-88f014711dfe")
-		)
-		(pin "2"
-			(uuid "6349f208-fa68-4a69-a5c1-c5c0dd8b2fd3")
-		)
-		(instances
-			(project ""
-				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -4228,80 +3341,6 @@
 		)
 	)
 	(symbol
-		(lib_id "gameboy_lib:MP2315_Mini_Adjustable_DC-DC_Step-Down_Module")
-		(at 83.82 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d98ddf7d-6663-42b3-9a25-1039316e950a")
-		(property "Reference" "U4"
-			(at 83.82 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MP2315 Buck"
-			(at 83.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9503b480-1f16-44fd-9378-0ce97582bf96")
-		)
-		(pin ""
-			(uuid "8eb914cd-c548-41e9-9df2-ba5cb3023996")
-		)
-		(pin "3"
-			(uuid "cca2a924-87df-4d44-b7ab-0cb99a738b48")
-		)
-		(pin "4"
-			(uuid "2b077bfa-1d37-4c44-a614-19cac0368143")
-		)
-		(instances
-			(project ""
-				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 195.58 116.84 0)
 		(unit 1)
@@ -4362,6 +3401,48 @@
 				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
 					(reference "#PWR010")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 121.92)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7f3f69b-4f1f-48a6-95cb-52c0ae4cac32")
+		(property "Sheetname" "power_circuit"
+			(at 97.79 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_board.kicad_sch"
+			(at 97.79 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy_rev_A"
+				(path "/131976ae-50a5-40c3-8803-e57b987d49f7"
+					(page "")
 				)
 			)
 		)
