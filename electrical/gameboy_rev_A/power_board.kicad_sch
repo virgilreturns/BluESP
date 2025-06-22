@@ -679,6 +679,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "disable regulators via GPIO if in deep sleep\nremoving boost converter, 3.3 v is fine for backlight LED\n"
+		(exclude_from_sim no)
+		(at 134.874 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a50809c-0528-41a5-89c5-b1f8b0fbe5bd")
+	)
 	(junction
 		(at 102.87 63.5)
 		(diameter 0)
