@@ -1,0 +1,4 @@
+tft_eSPI guide:
+
+GoTo platformio.ini set lib_deps                = bodmer/TFT_eSPI@^2.5.43
+use #include <TFT_eSPI.h>

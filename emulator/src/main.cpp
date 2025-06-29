@@ -1,31 +1,41 @@
-/**
- * Blink
- *
- * Turns on an LED on for one second,
- * then off for one second, repeatedly.
- */
-#include "Arduino.h"
+/*
+  Ellipse drawing example
 
-// Set LED_BUILTIN if it is not defined by Arduino framework
-// #define LED_BUILTIN 13
+  This sketch does not use any fonts.
+*/
 
-void setup()
-{
-  // initialize LED digital pin as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
+#include <SPI.h>
+
+#include <TFT_eSPI.h> // Hardware-specific library
+
+TFT_eSPI tft = TFT_eSPI();       // Invoke custom library
+
+const int scale = 2;
+const int offsetX = 80;
+const int offsetY = 16;
+
+const int disp_max_w = 480; // 480 x 320
+const int disp_max_h = 320;
+
+// must center 288 x 320 w x h
+
+const int frame_w = 288;
+const int frame_h = 320;
+
+
+
+void setup(void) {
+  tft.init();
+  tft.setRotation(1);
+  tft.fillScreen(TFT_BLACK);
+  
+  tft.fillRect((disp_max_w-frame_w)/2, 0, 288, 320, TFT_RED); // or any color you like
+
 }
 
-void loop()
-{
-  // turn the LED on (HIGH is the voltage level)
-  digitalWrite(LED_BUILTIN, HIGH);
+void loop() {
 
-  // wait for a second
-  delay(1000);
-
-  // turn the LED off by making the voltage LOW
-  digitalWrite(LED_BUILTIN, LOW);
-
-   // wait for a second
-  delay(1000);
 }
+
+
+
