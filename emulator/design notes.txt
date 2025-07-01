@@ -1,0 +1,13 @@
+tft_eSPI guide:
+
+GoTo platformio.ini set lib_deps                = bodmer/TFT_eSPI@^2.5.43
+use #include <TFT_eSPI.h>
+
+TASK BOARD:
+1. Create Tile Data fit for the screen
+    a. use tft_espi to push tile data to the screen
+    b. figure out how to store each pixel, color, transparency
+    c. figure out how pixel is represented in data, what types of tiles are there?
+    d. How is color stored and accessed?
+    e. Include tft_eSPI library
+    
